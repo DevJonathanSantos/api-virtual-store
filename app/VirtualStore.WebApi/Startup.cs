@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using VirtualStore.Interfaces;
+using VirtualStore.Interfaces.Services;
+using VirtualStore.Interfaces.Repositories;
 using VirtualStore.Repositories;
 using VirtualStore.Services;
 
@@ -27,7 +28,7 @@ namespace VirtualStore.WebApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }   
+            }
 
             app.UseHttpsRedirection();
 

@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using VirtualStore.Entities;
-using VirtualStore.Interfaces;
+using VirtualStore.Interfaces.Repositories;
+using VirtualStore.Interfaces.Services;
 
 namespace VirtualStore.Services
 {
@@ -12,9 +14,21 @@ namespace VirtualStore.Services
         {
             _digitalStoreRepository = digitalStoreRepository;
         }
-        public async Task<List<Product>> Search(string category)
+        public async Task<List<Product>> Search(string parameter)
         {
-            return await _digitalStoreRepository.Search(category);
+            List<Product> product = null;
+
+            product = await _digitalStoreRepository.Search(parameter);
+            return product;
+        }
+        public async Task<List<Product>> Insert(string name, string category, string manufacturer, DateTime manufacturingDate, decimal price, string description)
+        {
+            List<Product> product = null;
+
+            var validarInsert = await _digitalStoreRepository.Insert(name, category, manufacturer, manufacturingDate, price, description);
+            if (validarInsert.Equals(true))
+                product = await _digitalStoreRepository.Search(category);
+            return product;
         }
     }
 }

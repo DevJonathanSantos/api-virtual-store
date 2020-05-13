@@ -17,9 +17,9 @@ C:\Users\jojor\OneDrive\Desktop\VirtualStore\old\Virtual.Store\app\VirtualStore\
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\bin\Debug\netcoreapp3.1\VirtualStore.deps.json
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\bin\Debug\netcoreapp3.1\VirtualStore.dll
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\bin\Debug\netcoreapp3.1\VirtualStore.pdb
-C:\Projects\study\study-api-virtual-store\app\VirtualStore\obj\Debug\netcoreapp3.1\VirtualStore.csprojAssemblyReference.cache
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\obj\Debug\netcoreapp3.1\VirtualStore.csproj.CoreCompileInputs.cache
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\obj\Debug\netcoreapp3.1\VirtualStore.AssemblyInfoInputs.cache
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\obj\Debug\netcoreapp3.1\VirtualStore.AssemblyInfo.cs
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\obj\Debug\netcoreapp3.1\VirtualStore.dll
 C:\Projects\study\study-api-virtual-store\app\VirtualStore\obj\Debug\netcoreapp3.1\VirtualStore.pdb
+C:\Projects\study\study-api-virtual-store\app\VirtualStore\obj\Debug\netcoreapp3.1\VirtualStore.csprojAssemblyReference.cache
